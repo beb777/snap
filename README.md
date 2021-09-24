@@ -35,6 +35,17 @@ To remove a snap
 
 > `sudo snap remove <snap_name>`
 
+### problem solving while you install
+
+> `sudo snap install pycharm-community --classic`
+>  error: cannot install "pycharm-community": classic confinement requires snaps
+       under /snap or symlink from /snap to /var/lib/snapd/snap
+> ## creating symlink
+> `sudo ln -s /var/lib/snapd/snap /snap`
+
+
+
+
 
 
 
