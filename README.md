@@ -4,9 +4,9 @@
 >
 > `sudo apt install snapd`   ## debian and ubuntu
 > 
-> `yaourt -S snapd`  #arch based
+>  > `yaourt -S snapd`  #arch based
 >
-> `sudo systemctl enable --now snapd.socket` # arch based
+>  > `sudo systemctl enable --now snapd.socket` # arch based
 >  
 > `sudo snap install snap-store`
 
